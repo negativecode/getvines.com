@@ -1,0 +1,24 @@
+{% include header.html %}
+<div id="wrap">
+  <div id="top"></div>
+  <header>
+    <div class="container_12">
+      {% include nav.html %}
+    </div>
+  </header>
+  <section id="main" class="container_12">
+    <div class="grid_8">
+      <div id="content">
+        {{ content }}
+      </div>
+    </div>
+    <nav id="sidebar" class="grid_3">
+      <h2>Quick Start</h2>
+      <ul class="nav-links">
+        <li><a href="/docs/">Overview</a></li>
+      </ul>
+    </nav>
+    <div class="clear"></div>
+  </section>
+</div>
+{% include footer.html %}
