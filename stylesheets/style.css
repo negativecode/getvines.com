@@ -255,3 +255,49 @@ nav#sidebar h2 {
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.25);
   text-transform: uppercase;
 }
+nav#sidebar h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+nav#sidebar h2 a:hover {
+  text-decoration: underline;
+}
+code {
+  background: #444;
+  border-bottom: 1px solid #fff;
+  color: #f8f8f8;
+  display: block;
+  font-family: Menlo, monospace;
+  font-size: 11px;
+  overflow-x: auto;
+  padding: 10px;
+  white-space: pre;
+}
+a.button {
+  height: 26px;
+  display: inline-block;
+  line-height: 1.5;
+  text-decoration: none;
+  background: #8dd2f7;
+  background: -moz-linear-gradient(#8dd2f7, #58b8f4);
+  background: -ms-linear-gradient(#8dd2f7, #58b8f4);
+  background: -o-linear-gradient(#8dd2f7, #58b8f4);
+  background: -webkit-linear-gradient(#8dd2f7, #58b8f4);
+  border: 1px solid #448ccd;
+  border-top: 1px solid #5da8db;
+  color: #0d4078;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px #fff, inset 0 1px 1px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  font-family: "ff-cocon-web-pro", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 20px;
+  margin-bottom: 10px;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+}
+a.button:active {
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
+}
